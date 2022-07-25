@@ -14,7 +14,7 @@ h2{
 }
 
 .title{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
     font-size: x-large;
     display: flex;
     justify-content: center;
@@ -31,7 +31,7 @@ h2{
     box-shadow: 100vmax 0 0 #0000;
   
     background:linear-gradient(#000 0 0) 100vmax 0 no-repeat;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .title a:hover{
