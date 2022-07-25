@@ -1,0 +1,13 @@
+.post-1 h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.post-1 .prototype img{
+    padding: 2.5em;
+    margin-bottom: 1em;
+}
+
+.post-1 .prototype .disclaimer{
+    font-weight: bolder;
+}

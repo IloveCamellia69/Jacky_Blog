@@ -1,0 +1,50 @@
+.main{
+    padding-top: 3em;
+}
+
+.blog_list{
+    margin-top: 2em;
+}
+
+.blog_list h3{
+    margin-left: 2em;
+    font-size: x-large;
+}
+
+.blog_list li{
+    display: block;
+    padding: 0.4em;
+    overflow: hidden;
+}
+
+.blog_list a{
+    text-decoration: underline 0.15em rgb(255, 255, 255);
+    text-underline-offset: 0.2em;
+    color: black;
+    background:linear-gradient(#000 0 0) 100vmax 0 no-repeat;
+    transition: 0.2s;
+}
+
+.blog_list a:hover{
+    text-decoration-color: rgba(0, 0, 0, 1);
+    text-underline-offset: 0.4em;
+    color: white;
+    box-shadow: 0 0 0 #000;
+    background-position: 0 0;
+}
+
+.description h2{
+    text-align: center;
+    margin-left: 1em;
+    font-size:x-large;
+    font-weight: bold;
+
+    /* text-decoration: underline 0.15em rgb(0, 0, 0);
+    text-underline-offset: 0.2em; */
+}
+
+.description p{
+    font-size: small;
+    text-align: justify;
+    margin-left: 2em;
+}
