@@ -37,3 +37,15 @@
     padding-left: 3em;
     padding-right: 3em;
 }
+
+.row{
+    margin-bottom: 4em;
+}
+
+.refined_ui img{
+    width: 100%;
+}
+
+.col-4 p{
+    margin-top: 5em;
+}
