@@ -1,4 +1,15 @@
-.persona .clearfix img{
+.clearfix img{
     margin-right: 100px;
     padding-left: 30px;
+}
+
+.proto_imgs{
+    text-align: center;
+}
+
+.proto_imgs img{
+    width: 80%;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+
 }
