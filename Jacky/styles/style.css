@@ -13,6 +13,7 @@ h2{
     font-weight: bold;
 }
 
+/* LOGO */
 .title{
     font-family:'Times New Roman', Times, serif;
     font-size: x-large;
@@ -41,7 +42,9 @@ h2{
     box-shadow: 0 0 0 #000;
     background-position: 0 0;
 }
+/* LOGO END */
 
+/* NAV BAR */
 nav .container{
     overflow: hidden;
 }
@@ -69,22 +72,30 @@ nav .container{
     text-decoration-color: rgba(0, 0, 0, 1);
     text-underline-offset: 0.4em;
 }
+/* NAV BAR END */
 
-
-.footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(221, 221, 221);
-    color: black;
+/* HEADING BACKGROUND */
+.main_head{
     text-align: center;
-    padding-top: 0.7em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    padding: 13px 30px 13px;
+    outline: 0;
+    border: 1px solid black;
+    position: relative;
 }
+.main_head::after{
+    content: "";
+    background-color: #dc9bf0;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+}
+/* HEADING BACKGROUND END */
 
-/***********************************************************************************************************************************************************************************/
-
+/* NEXT BUTTON */
 button {
     margin-left: 40%;
     margin-right: 40%;
@@ -128,3 +139,21 @@ button {
     color: #000;
     text-decoration: none;
 }
+/* NEXT BUTTON END */
+
+/* FOOTER */
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(221, 221, 221);
+    color: black;
+    text-align: center;
+    padding-top: 0.7em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* FOOTER END */
+
+/***********************************************************************************************************************************************************************************/
+
