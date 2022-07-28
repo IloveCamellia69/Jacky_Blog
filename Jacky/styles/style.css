@@ -70,6 +70,7 @@ nav .container{
     text-underline-offset: 0.4em;
 }
 
+
 .footer{
     position: fixed;
     left: 0;
@@ -84,5 +85,47 @@ nav .container{
 
 /***********************************************************************************************************************************************************************************/
 
+button {
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-family: inherit;
 
+  }
 
+.slide {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 30px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.slide::after {
+    content: "";
+    background-color: #dc9bf0;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+}
+
+.slide div {
+    transition: transform 0.8s;
+}
+
+.slide:hover div {
+    transform: translateX(-6px);
+}
+
+.slide div a{
+    color: #000;
+    text-decoration: none;
+}
