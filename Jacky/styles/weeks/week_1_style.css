@@ -6,3 +6,8 @@
 .post-1 .prototype .disclaimer{
     font-weight: bold;
 }
+
+.post-1 .persona .clearfix img{
+    margin-right: 100px;
+    padding-left: 30px;
+}
