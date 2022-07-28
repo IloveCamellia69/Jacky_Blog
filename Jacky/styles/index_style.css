@@ -4,6 +4,7 @@
 
 .blog_list{
     margin-top: 2em;
+
 }
 
 .blog_list h3{
@@ -13,8 +14,10 @@
 
 .blog_list li{
     display: block;
-    padding: 0.4em;
     overflow: hidden;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-left: 1em;
 }
 
 .blog_list a{
