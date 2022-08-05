@@ -1,0 +1,25 @@
+.table {
+    min-width: 1000px !important;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+}
+
+.table thead th {
+    border: none;
+    padding: 30px;
+    font-size: 14px;
+    color: #000;
+}
+
+.table tbody tr {
+    margin-bottom: 10px; 
+}
+
+.story_imgs img{
+    width: 45%;
+}
+
+.story_imgs{
+    text-align: center;
+}
