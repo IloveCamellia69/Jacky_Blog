@@ -26,3 +26,7 @@
     /* background-color: #f0588E; */
     background-image: linear-gradient(to right, #fd2669, #f0588E);
 }
+
+.sketch{
+    padding-bottom: 3em;
+}
