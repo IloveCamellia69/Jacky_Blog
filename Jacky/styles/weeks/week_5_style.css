@@ -2,7 +2,14 @@
     margin-right: 600px;
 }
 
+.digi_rec{
+    text-align: center;
+}
 .digi_rec img{
-    width: 45%;
+    width: 25%;
     margin: 5px;
+}
+
+.final_poster{
+    text-align: center;
 }
